@@ -30,7 +30,7 @@
                 </li>
             </ul>
             <form class="d-flex" role="search">
-                <a href=" " class="text-decoration-none" > <strong> accedi </strong></a>
+                <a href=" /acedi " class="text-decoration-none" > <strong> accedi </strong></a>
                 <button class="btn btn-outline-success" type="submit">crea il tuo sito</button>
             </form>
             </div>
