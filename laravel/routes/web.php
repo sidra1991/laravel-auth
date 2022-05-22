@@ -13,14 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'Admin\pressController@index');
-
-//pagina momentanea devo capire ancora delle cose
-Route::get('/acedi', function () {
-    return view('acedi');
+Route::get('/', function () {
+    return view('welcome');
 });
-
-//    per ricordare mela dimentico sempre
-//    Route::get('/', function () {
-//        return view('welcome');
-//    });
