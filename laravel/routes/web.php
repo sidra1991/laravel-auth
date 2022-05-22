@@ -27,4 +27,5 @@ Route::middleware('auth')
     ->prefix('admmin')
     ->group(function (){
         Route::get('/', 'Homecontroller@index')->name('home');
+        Route::resource('/post','potsController');
     });
